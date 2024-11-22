@@ -45,7 +45,7 @@
         </style>
     </head>
     <body class="bg-white">
-        <!-- Navigation -->
+
         <nav class="fixed w-full shadow-md z-50 brand-yellow">
             <div class="container mx-auto px-6 py-3 flex justify-between items-center">
                 <a href="index.html" class="text-black font-bold text-xl">SnapHire</a>
@@ -58,17 +58,17 @@
             </div>
         </nav>
 
-        <!-- Main Content -->
+
         <div class="container mx-auto px-4 pt-24">
-            <!-- Header Section -->
+
             <div class="text-center mb-16">
                 <h1 class="text-4xl font-bold mb-4">How SnapHire Works</h1>
                 <p class="text-xl text-gray-600">Your journey to finding the perfect photographer in 4 simple steps</p>
             </div>
 
-            <!-- Steps Section -->
+
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-                <!-- Step 1 -->
+
                 <div class="step-card bg-white rounded-lg shadow-lg p-6 text-center">
                     <div class="feature-icon mb-4">
                         <i class="fas fa-search"></i>
@@ -77,7 +77,7 @@
                     <p class="text-gray-600">Enter your location and browse through our curated list of professional photographers</p>
                 </div>
 
-                <!-- Step 2 -->
+
                 <div class="step-card bg-white rounded-lg shadow-lg p-6 text-center">
                     <div class="feature-icon mb-4">
                         <i class="fas fa-user-check"></i>
@@ -86,7 +86,7 @@
                     <p class="text-gray-600">Compare portfolios, reviews, and pricing to find your perfect match</p>
                 </div>
 
-                <!-- Step 3 -->
+
                 <div class="step-card bg-white rounded-lg shadow-lg p-6 text-center">
                     <div class="feature-icon mb-4">
                         <i class="fas fa-calendar-check"></i>
@@ -95,7 +95,7 @@
                     <p class="text-gray-600">Schedule your session directly through our secure booking system</p>
                 </div>
 
-                <!-- Step 4 -->
+
                 <div class="step-card bg-white rounded-lg shadow-lg p-6 text-center">
                     <div class="feature-icon mb-4">
                         <i class="fas fa-camera"></i>
@@ -105,11 +105,11 @@
                 </div>
             </div>
 
-            <!-- Features Section -->
+
             <div class="bg-gray-50 rounded-xl p-8 mb-16">
                 <h2 class="text-3xl font-bold text-center mb-12">Why Choose SnapHire?</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Feature 1 -->
+
                     <div class="flex items-start space-x-4">
                         <div class="feature-icon">
                             <i class="fas fa-shield-alt"></i>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
 
-                    <!-- Feature 2 -->
+
                     <div class="flex items-start space-x-4">
                         <div class="feature-icon">
                             <i class="fas fa-dollar-sign"></i>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
 
-                    <!-- Feature 3 -->
+
                     <div class="flex items-start space-x-4">
                         <div class="feature-icon">
                             <i class="fas fa-star"></i>
@@ -144,7 +144,7 @@
                 </div>
             </div>
 
-            <!-- CTA Section -->
+
             <div class="text-center bg-gray-900 text-white rounded-xl p-12 mb-16">
                 <h2 class="text-3xl font-bold mb-4">Ready to Find Your Photographer?</h2>
                 <p class="text-xl mb-8">Join thousands of satisfied customers who found their perfect photographer on SnapHire</p>
@@ -153,23 +153,23 @@
                 </a>
             </div>
 
-            <!-- FAQ Section -->
+
             <div class="mb-16">
                 <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-4">
-                    <!-- FAQ Item 1 -->
+
                     <div class="border rounded-lg p-4">
                         <h3 class="font-bold mb-2">How do I pay for the photography session?</h3>
                         <p class="text-gray-600">Payment is handled securely through our platform. You'll only be charged after confirming your booking, and the payment is held in escrow until the session is completed.</p>
                     </div>
 
-                    <!-- FAQ Item 2 -->
+
                     <div class="border rounded-lg p-4">
                         <h3 class="font-bold mb-2">What if I need to cancel my booking?</h3>
                         <p class="text-gray-600">Cancellations made 48 hours before the scheduled session are eligible for a full refund. Please check individual photographer's cancellation policies for specific terms.</p>
                     </div>
 
-                    <!-- FAQ Item 3 -->
+
                     <div class="border rounded-lg p-4">
                         <h3 class="font-bold mb-2">How do I receive my photos?</h3>
                         <p class="text-gray-600">Your photographer will upload the edited photos to your private gallery on SnapHire, where you can download them directly or share them with friends and family.</p>
@@ -178,20 +178,6 @@
             </div>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                // Navigation menu mobile toggle
-                const navToggle = document.createElement('div');
-                navToggle.innerHTML = '☰';
-                navToggle.classList.add('mobile-nav-toggle', 'md:hidden', 'cursor-pointer', 'text-2xl');
-                
-                const navMenu = document.querySelector('nav .flex.space-x-6');
-                navMenu.parentNode.insertBefore(navToggle, navMenu);
-
-                navToggle.addEventListener('click', () => {
-                    navMenu.classList.toggle('hidden');
-                });
-            });
-        </script>
+        
     </body>
 </html>
